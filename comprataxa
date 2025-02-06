@@ -5,6 +5,6 @@ inicio
       Escreva("Qual o preco do produto? US$")
       Leia(Preco)
       imposto <- (preco * 60)/100
-      Escreva("O imposto sera de US$", imposto)
+      Escreva("O imposto sera de US$", imposto: 5: 2)
 
 fimalgoritmo
