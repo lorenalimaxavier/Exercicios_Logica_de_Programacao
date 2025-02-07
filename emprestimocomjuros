@@ -1,0 +1,23 @@
+Algoritmo "EmprestimoComJuros"
+var
+    valorEmprestimo, valorComJuros, valorParcela: Real
+    numParcelas: Inteiro
+
+inicio
+    Escreva("Digite o valor do empréstimo: ")
+    Leia(valorEmprestimo)
+
+    Escreva("Digite o número de parcelas: ")
+    Leia(numParcelas)
+
+    // Cálculo dos juros (20% sobre o valor total)
+    valorComJuros <- valorEmprestimo * 1.2
+
+    // Cálculo do valor de cada parcela
+    valorParcela <- valorComJuros / numParcelas
+
+    // Exibição dos resultados
+    Escreva("Valor total com juros: R$", valorComJuros)
+    Escreva("Valor de cada parcela: R$", valorParcela)
+
+FimAlgoritmo
