@@ -7,8 +7,7 @@ inicio
       Leia(valor)
       Enquanto (contador <= valor) faca
           EscrevaL (contador)
-          contador <- contador +
-           1
+          contador <- contador + 1
       FimEnquanto
       EscrevaL("Terminei de contar")
 fimalgoritmo
